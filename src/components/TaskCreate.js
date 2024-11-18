@@ -1,4 +1,5 @@
-import {useState} from 'react';
+import { useState } from 'react';
+
 function TaskCreate({onCreate}) {
 
     const [title,setTitle] = useState('');
@@ -24,7 +25,7 @@ function TaskCreate({onCreate}) {
             <input className="task-input" placeholder='Task başlığını giriniz' value={title} onChange={handleLabelChange}></input>
             <label className="task-label">Task Giriniz!</label>
             <textarea className="task-textArea" rows={5} placeholder='Task içeriğini giriniz' value={taskDesc} onChange={handleTaskChange}></textarea>
-            <button className="task-button" onChange={handleSubmit}>Oluştur</button>
+            <button className="task-button" onClick={handleSubmit}>Oluştur</button>
         </form>
     </div> );
 }
