@@ -62,7 +62,7 @@
   width: 60px;
   border: none;
   border-radius: 30px;
-  background-color: red;
+  background-color: #c92a2a;
   color: white;
   margin-right: 10px;
 }
@@ -73,7 +73,7 @@
   width: 100px;
   border: none;
   border-radius: 30px;
-  background-color: blue;
+  background-color: #8888f3;
   color: white;
   margin-right: 10px;
 }
@@ -87,5 +87,25 @@
 }
 
 .update-button {
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  border-radius: 30px;
   background-color: blueviolet;
+  color: white;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.back-button {
+  padding: 5px;
+  font-size: 15px;
+  width: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: bisque;
+  color: white;
+  margin-right: 10px;
+  align-items: center;
 }

@@ -23,13 +23,14 @@ function TaskShow({ task, onDelete, onUpdate }) {
           task={task}
           taskFormUpdate={true}
           onUpdate={handleSubmit}
+          getBack={handleEditTask}
         ></TaskCreate>
       ) : (
         <div>
           <h3 className="task-IdTitle">
             {task.id} {task.title}{" "}
           </h3>
-          <h4>Görev İçeriği</h4>
+          <h4 className="task-Description">Görev İçeriği</h4>
           <p>{task.taskDesc}</p>
           <div>
             <button className="task-delete" onClick={handleDeleteTask}>
