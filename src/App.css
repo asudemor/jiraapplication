@@ -81,3 +81,11 @@
 .task-IdTitle {
   margin-bottom: 2px;
 }
+
+.task-update {
+  width: 100%;
+}
+
+.update-button {
+  background-color: blueviolet;
+}
